@@ -84,7 +84,7 @@ $y \notin ub(A)$. Hence there exists $x\in A$ such that $y < x$. Similar proof f
 >Let $A\subseteq\mathbb{R}$. the following set is called the *interior* of $A$
 >$$int(A)\coloneqq\{x\in\mathbb{R}|\exists V\in \mathcal{V}(x)\text{ such that } V\subseteq A\}$$
 >and the following set is called the *closure*
->$$cl(A)\coloneqq\{x\in\mathbb{R}|\forall V\in\mathcal{V}(x)\text{ such that } V\subseteq A\}$$
+>$$cl(A)\coloneqq\{x\in\mathbb{R}|\forall V\in\mathcal{V}(x)\text{ such that } V\cap A\not = 0\}$$
 
 >[!info] Proposition
 > For any $A\subseteq\mathbb{R}$, it holds that $int(A)\subseteq A\subseteq cl(A)$.

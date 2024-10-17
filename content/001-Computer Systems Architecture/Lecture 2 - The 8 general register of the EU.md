@@ -42,7 +42,7 @@ For the multiplication of 2 double words, which results in a quad word, the regi
 >[!info] Multiplication and division
 >These two operations have one explicit operand, the divisor and the multiplicator. At a lower level for a quad word we will have EDX:EAX, when dividing by a word we have DX:AX/word and AX/byte
 
-![[Excalidraw/Drawing 2024-10-07 09.20.24.excalidraw.svg]]
+![[999-Excalidraw/Drawing 2024-10-07 09.20.24.excalidraw.svg]]
 ESP - *Stack Pointer* (points to the top of the stack), EBP - *Base Pointer* (points to the bottom of the stack) are the stack registers
 The stack, queue and heap are the 3 basic data structures
 ![[Drawing 2024-10-10 19.33.57.excalidraw.svg]]

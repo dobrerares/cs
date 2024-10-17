@@ -11,7 +11,7 @@ $$\begin{gathered}
 1\underbrace{0\ldots0_{(2)}}_n=2^n\\
 \underbrace{1\ldots1}_n=1\underbrace{0\ldots0}_{n}-1=2^n-1\\
 0,\underbrace{0\ldots0}_{n-1}1=2^{-n}\\
-0,\underbrace{1\ldots1}_{n}=1,\underbrace{0\ldots0}_n-0,\underbrace{0\ldots0}_{n-1}=1-2^{-n}
+0,\underbrace{1\ldots1}_{n}=1,\underbrace{0\ldots0}_n-0,\underbrace{0\ldots1}_{n-1}=1-2^{-n}
 \end{gathered}
 
 $$

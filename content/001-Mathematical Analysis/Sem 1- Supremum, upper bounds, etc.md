@@ -33,7 +33,7 @@ f(x)+g(x)=0
 \end{align}
 $$
 >[!info] Definition
->$V$ is a neighborhood of $x\in R$ if $\exists\varepsilon\gt 0 \text{ s.t. } (x-\varepsilon,x+varepsilon)\subseteq V$
+>$V$ is a neighborhood of $x\in R$ if $\exists\varepsilon\gt 0 \text{ s.t. } (x-\varepsilon,x+\varepsilon)\subseteq V$
  
  6.  Which of the following sets are neighborhoods of 0?
 	 a. $[-1,1]\cup\{2\}$
@@ -65,7 +65,7 @@ $$
 >$$int(A)=\{x\in\mathbb{R}:\exists V\in\mathcal{V}(x), V\subseteq A\}$$
 >If you take any number in the interior you can find a neighborhood inside the set A
 >$$(0,1], 0\notin int(A), 1\notin int(A), int(A)=(0,1)$$
->$$cl(A)=\{x\in\mathbb{R}:\exists V\in\mathcal{V}(x), V\cup A\not=0\}$$
+>$$cl(A)=\{x\in\mathbb{R}:\exists V\in\mathcal{V}(x), V\cap A\not=0\}$$
 >So an element is in the closure if any neighborhood will intersect the set A
 >$$cl(0,1]=[0,1], o\in(0,1]$$
 

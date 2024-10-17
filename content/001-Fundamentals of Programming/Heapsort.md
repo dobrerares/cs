@@ -1,0 +1,1 @@
+Heapsort uses a [[Heaps. Max-heap, min-heap|max-heap]] (or a min-heap for sorting in descending order) in order to sort
